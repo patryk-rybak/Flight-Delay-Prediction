@@ -1,0 +1,11 @@
+Accuracy: 0.6398526761198629
+              precision    recall  f1-score   support
+
+           0       0.72      0.70      0.71   1453506
+           1       0.52      0.53      0.52    870082
+
+    accuracy                           0.64   2323588
+   macro avg       0.62      0.62      0.62   2323588
+weighted avg       0.64      0.64      0.64   2323588
+
+10_000 leaf

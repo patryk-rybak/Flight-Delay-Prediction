@@ -1,0 +1,15 @@
+give model name: bayes
+begin:
+Accuracy: 0.6305351895430688
+Best params: {'var_smoothing': 1e-09}
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.91      0.75   1453506
+           1       0.52      0.17      0.25    870082
+
+    accuracy                           0.63   2323588
+   macro avg       0.58      0.54      0.50   2323588
+weighted avg       0.60      0.63      0.57   2323588
+

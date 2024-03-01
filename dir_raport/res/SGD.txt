@@ -1,0 +1,18 @@
+Accuracy: 0.626367066794974
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.71      0.70   1453506
+           1       0.50      0.48      0.49    870082
+
+    accuracy                           0.63   2323588
+   macro avg       0.60      0.60      0.60   2323588
+weighted avg       0.62      0.63      0.62   2323588
+
+
+WITH PARAMS: 
+	param_grid = {     
+		'alpha': [0.0001, 0.001, 0.01],              
+		'max_iter': [1000, 2000, 3000, 5000, 10000, 20000],    
+	}
